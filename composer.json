@@ -1,0 +1,28 @@
+{
+    "name": "nabeghe/process-finger",
+    "description": "A PHP library providing utilities to inspect, manage, and interact with system processes across \uD83D\uDC27 Linux, \uD83C\uDF4E Mac, BSD, and \uD83E\uDE9F Windows.",
+    "keywords": ["process", "system", "process management", "php", "process info", "pid", "cpu", "memory"],
+    "type": "library",
+    "homepage": "https://github.com/nabeghe/process-finger-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hadi Akbarzadeh",
+            "email": "elsiomcoder@gmail.com",
+            "homepage": "https://elatel.ir",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nabeghe/process-finger-php/issues",
+        "source": "https://github.com/nabeghe/process-finger-php"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nabeghe\\ProcessFinger\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
